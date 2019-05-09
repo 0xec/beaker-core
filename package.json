@@ -1,29 +1,44 @@
 {
-  "name": "@beaker/core",
-  "version": "3.0.2",
-  "description": "Beaker browser's core software",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint . --ignore-pattern 'node_modules/*' --fix",
-    "test": "ava ./*-test.js -s -T15000"
+  "_from": "github:beakerbrowser/beaker-core#46716e74cd5abcc6519e30e58fe927b92bb7d958",
+  "_id": "@beaker/core@3.0.2",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@beaker/core",
+  "_phantomChildren": {
+    "end-of-stream": "1.4.1",
+    "micromatch": "3.1.10",
+    "minimatch": "3.0.4",
+    "mkdirp": "0.5.1",
+    "normalize-path": "2.1.1",
+    "once": "1.4.0",
+    "random-access-storage": "1.3.0",
+    "safe-buffer": "5.1.2"
   },
-  "pre-commit": [
-    "lint"
-  ],
-  "repository": {
+  "_requested": {
     "type": "git",
-    "url": "git+https://github.com/beakerbrowser/beaker-core.git"
+    "raw": "@beaker/core@github:beakerbrowser/beaker-core#46716e74cd5abcc6519e30e58fe927b92bb7d958",
+    "name": "@beaker/core",
+    "escapedName": "@beaker%2fcore",
+    "scope": "@beaker",
+    "rawSpec": "github:beakerbrowser/beaker-core#46716e74cd5abcc6519e30e58fe927b92bb7d958",
+    "saveSpec": "github:beakerbrowser/beaker-core#46716e74cd5abcc6519e30e58fe927b92bb7d958",
+    "fetchSpec": null,
+    "gitCommittish": "46716e74cd5abcc6519e30e58fe927b92bb7d958"
   },
-  "keywords": [
-    "beaker",
-    "dat"
+  "_requiredBy": [
+    "/"
   ],
-  "author": "Paul Frazee <pfrazee@gmail.com>",
-  "license": "MIT",
+  "_resolved": "github:beakerbrowser/beaker-core#46716e74cd5abcc6519e30e58fe927b92bb7d958",
+  "_spec": "@beaker/core@github:beakerbrowser/beaker-core#46716e74cd5abcc6519e30e58fe927b92bb7d958",
+  "_where": "C:\\Users\\xec\\source\\repos\\beaker\\app",
+  "author": {
+    "name": "Paul Frazee",
+    "email": "pfrazee@gmail.com"
+  },
   "bugs": {
     "url": "https://github.com/beakerbrowser/beaker-core/issues"
   },
-  "homepage": "https://github.com/beakerbrowser/beaker-core#readme",
+  "bundleDependencies": false,
   "dependencies": {
     "@beaker/dat-ephemeral-ext-msg": "^1.0.0",
     "@beaker/dat-session-data-ext-msg": "^1.1.0",
@@ -73,7 +88,7 @@
     "semver": "^5.6.0",
     "slugify": "^1.3.4",
     "sodium-signatures": "^2.1.1",
-    "spellchecker": "beakerbrowser/node-spellchecker#ce6402cb062823587986f3cd38debd01ddf3bffb",
+    "spellchecker": "^3.5.0",
     "split2": "^2.2.0",
     "sqlite3": "^4.0.4",
     "stream-throttle": "^0.1.3",
@@ -82,8 +97,30 @@
     "through2": "^2.0.5",
     "utp-native": "^2.1.3"
   },
+  "deprecated": false,
+  "description": "Beaker browser's core software",
   "devDependencies": {
     "eslint": "^4.19.1",
     "pre-commit": "^1.2.2"
-  }
+  },
+  "homepage": "https://github.com/beakerbrowser/beaker-core#readme",
+  "keywords": [
+    "beaker",
+    "dat"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@beaker/core",
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beakerbrowser/beaker-core.git"
+  },
+  "scripts": {
+    "lint": "eslint . --ignore-pattern 'node_modules/*' --fix",
+    "test": "ava ./*-test.js -s -T15000"
+  },
+  "version": "3.0.2"
 }
